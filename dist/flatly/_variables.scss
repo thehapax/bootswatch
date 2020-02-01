@@ -28,16 +28,17 @@ $green:   #18BC9C !default;
 $teal:    #20c997 !default;
 $cyan:    #3498DB !default;
 
-$primary:       $blue !default;
-$secondary:     $gray-600 !default;
-$success:       $green !default;
+$primary:       $cyan !default;
+$secondary:     $red !default;
+$success:       $yellow !default;
 $info:          $cyan !default;
-$warning:       $yellow !default;
+$warning:       $green !default;
 $danger:        $red !default;
 $light:         $gray-200 !default;
 $dark:          $gray-700 !default;
 
 $yiq-contrasted-threshold:  175 !default;
+
 
 // Links
 
@@ -81,7 +82,7 @@ $navbar-dark-hover-color:           $success !default;
 // Pagination
 
 $pagination-color:                  $white !default;
-$pagination-bg:                     $success !default;
+$pagination-bg:                     $success !default; //success
 $pagination-border-width:           0 !default;
 $pagination-border-color:           transparent !default;
 
