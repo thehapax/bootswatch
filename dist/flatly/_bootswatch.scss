@@ -7,6 +7,13 @@
 $web-font-path: "https://fonts.googleapis.com/css?family=Lato:400,700,400italic" !default;
 @import url($web-font-path);
 
+// Custom - make the title disappear =======
+.mb-4, .my-4 {
+    /* margin-bottom: 1.5rem !important; */
+    display: none;
+}
+
+
 // Navbar =======================================================================
 
 .bg-primary {

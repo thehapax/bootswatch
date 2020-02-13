@@ -28,12 +28,13 @@ $green:   #18BC9C !default;
 $teal:    #20c997 !default;
 $cyan:    #3498DB !default;
 
+// swap success and danger colors
 $primary:       $blue !default;
 $secondary:     $gray-600 !default;
-$success:       $green !default;
+$success:       $red !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
-$danger:        $red !default;
+$danger:        $green !default;
 $light:         $gray-200 !default;
 $dark:          $gray-700 !default;
 
