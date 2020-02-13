@@ -26,25 +26,18 @@ $orange:  #fd7e14 !default;
 $yellow:  #F39C12 !default;
 $green:   #18BC9C !default;
 $teal:    #20c997 !default;
-$cyan:    #7faacc !default;
-//$cyan:    #3498DB !default;
+$cyan:    #3498DB !default;
 
-
-$primary:       $cyan !default;
-$secondary:     $blue !default;
-$success:       $yellow !default;
+$primary:       $blue !default;
+$secondary:     $gray-600 !default;
+$success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
-$danger:        $red  !default;
+$danger:        $red !default;
 $light:         $gray-200 !default;
 $dark:          $gray-700 !default;
 
 $yiq-contrasted-threshold:  175 !default;
-
-// Body
-$body-bg:                   $red !default;
-$body-color:                $gray-900  !default;
-
 
 // Links
 
@@ -88,7 +81,7 @@ $navbar-dark-hover-color:           $success !default;
 // Pagination
 
 $pagination-color:                  $white !default;
-$pagination-bg:                     $success !default; //success
+$pagination-bg:                     $success !default;
 $pagination-border-width:           0 !default;
 $pagination-border-color:           transparent !default;
 
