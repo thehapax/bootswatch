@@ -7,10 +7,15 @@
 $web-font-path: "https://fonts.googleapis.com/css?family=Lato:400,700,400italic" !default;
 @import url($web-font-path);
 
-// Custom - make the title disappear =======
+// Custom CSS to make the title disappear and image in place ====================
 .mb-4, .my-4 {
     /* margin-bottom: 1.5rem !important; */
     display: none;
+}
+
+.overflow-hidden {
+    content: url(https://raw.githubusercontent.com/OSINThk/shortage-tracker/master/OSINT3.png);
+    width: 50%;
 }
 
 
